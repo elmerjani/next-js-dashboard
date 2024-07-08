@@ -2,7 +2,7 @@ import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import styles from '@/app/ui/home.module.css';
 import Link from 'next/link';
-import {lusitana} from './ui/fonts.ts';
+import {lusitana} from '@/app/ui/fonts';
 import Image  from 'next/image';
 //in next/image the Image component is exported default so we don't neet {}
 //since we can only default export one and only one component
